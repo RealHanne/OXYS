@@ -44,20 +44,19 @@ void state_machine_run(uint8_t senzor)
     break;
 
       if(){
-        case Masurare:
-          if(senzor==Senzor_puls){
+      case Masurare:
+      if(senzor==Senzor_puls){
            masoara_puls();
            masoara_sat();
-      
-          }
-          break;
+      }
+       break;
       }
    else(){
      case Alerta:
      if(senzor==Senzor_puls){
       //
      }
-     break;
+     break; 
    }
       
   }
